@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class CounterFunctionsScreen extends StatefulWidget {
   const CounterFunctionsScreen({super.key});
 
@@ -49,15 +48,15 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
             ],
           ),
         ),
-        floatingActionButton: Column(
+        floatingActionButton: const Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             CustomButton(icon: Icons.refresh_outlined),
-            const SizedBox(
+            SizedBox(
               height: 10,
             ),
             CustomButton(icon: Icons.exposure_minus_1_outlined),
-            const SizedBox(
+            SizedBox(
               height: 10,
             ),
             CustomButton(icon: Icons.plus_one),
